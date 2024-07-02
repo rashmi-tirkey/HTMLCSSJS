@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer-div{
+    width: 140px;
+    height: 200px;
+    background-color: black;
+    margin-left: 215px;
+}
+.inner-box{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 41px;
+}
+.red{
+    animation: blinkRed 9s infinite; 
+}
+.yellow{
+    animation: blinkYellow 9s infinite; 
+    animation-delay: 3s; 
+}
+.green{
+    animation: blinkGreen 9s infinite; 
+    animation-delay: 6s; 
+}
+@keyframes blinkRed { 
+  
+    0%, 
+    49% { 
+        background-color: red; 
+    } 
+
+    50%, 
+    100% { 
+        background-color: black; 
+    } 
+} 
+
+@keyframes blinkYellow { 
+
+    0%, 
+    49% { 
+        background-color: yellow; 
+    } 
+
+    50%, 
+    100% { 
+        background-color: black; 
+    } 
+} 
+
+@keyframes blinkGreen { 
+
+    0%, 
+    49% { 
+        background-color: green; 
+    } 
+
+    50%, 
+    100% { 
+        background-color: black; 
+    } 
+}
+.outer-stand{
+    width: 35px;
+    height: 280px;
+    background-color: rgb(188, 175, 175);
+    margin-left: 270px;
+}
+.outer-stand-support{
+    width: 100px;
+    height: 34px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 240px;
+}

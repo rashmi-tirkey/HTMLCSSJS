@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 50px;
+    font-size: 30px;
+    margin-bottom: 150px;
+}
+.input-section {
+    background-color: #400e47;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-items{
+    background-color: #400e47;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
